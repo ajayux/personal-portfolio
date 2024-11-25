@@ -8,24 +8,23 @@ const FooterContent = () => {
       <Link
         className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
         target="_blank"
-        href={"https://github.com/tobiasmeyhoefer/bitz"}
+        href={"https://github.com/"}
       >
         Github
       </Link>
       <Link
         className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
         target="_blank"
-        href={"https://www.youtube.com/@tobitacklestech"}
+        href={"https://www.linkedin.com/"}
       >
-        Youtube
+        Linkedin
       </Link>
-      {/* <Link
+      <Link
         className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
         href={"/contact"}
       >
         Contact
-      </Link> */}
-      <Image className="md:hidden" src={"/images/buycoffee.png"} alt="support me" height={38} width={134}/>
+      </Link>
       <DarkModeToggler />
     </div>
   );

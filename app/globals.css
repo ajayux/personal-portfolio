@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 * {
   box-sizing: border-box;
@@ -12,7 +10,11 @@
   --radial-gradient-background: 250, 250, 250;
   --solid-color-background: 27, 27, 27;
   --overlay-color: 255, 255, 255;
+  --header-y: 100px
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   scroll-behavior: smooth;

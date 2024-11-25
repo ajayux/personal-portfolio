@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Me from "@/public/webp/me.webp";
+import Me from "@/public/images/me.jpg";
 import Image from "next/image";
 import ShinyButton from "@/components/ui/shiny-button";
 import { usePathname } from "next/navigation";
@@ -13,9 +13,10 @@ export default function NavBar() {
   return (
     <nav
       id="nav"
-      className="fixed z-10 flex h-[80px] dark:bg-black white:bg-white w-screen max-w-[1920px] justify-center md:h-[100px]"
+      className="fixed top-0 left-0 right-0 z-10 flex flex-col h-[80px] dark:bg-[rgba(black, 0.1)] white:bg-white w-full justify-center md:h-[100px]"
     >
-      <div className="flex w-full max-w-[1920px] items-center justify-between px-8 md:px-10">
+      <div className="container">
+      <div className="flex w-full items-center justify-between">
         <div className="flex items-center">
           <Link className="rounded-full transition-all" href={"/"}>
             <Image
@@ -42,17 +43,9 @@ export default function NavBar() {
           </div>
         </div>
         <div className="flex items-center gap-6">
-          <Link href={"https://buymeacoffee.com/tobiasmeyhoefer"}>
-            <Image
-              alt="support me"
-              src={"/images/buycoffee.png"}
-              height={38}
-              width={134}
-              className="max-md:hidden"
-            />
-          </Link>
           <ShinyButton />
         </div>
+      </div>
       </div>
     </nav>
   );

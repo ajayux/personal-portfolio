@@ -15,9 +15,9 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Tobias Meyhöfer - Webdeveloper Portfolio",
+  title: "ajay n - Webdeveloper Portfolio",
   description:
-    "Portfolio of Tobias Meyhöfer, a webdeveloper from Germany, content creator, student and track&field athlete",
+    "Portfolio of ajay",
 };
 
 export const viewport: Viewport = {
@@ -33,7 +33,7 @@ export default function RootLayout({
     <html lang="en" className="">
       <body
         className={cn(
-          "h-0 min-h-screen overflow-x-hidden bg-background font-space_grotesk text-foreground antialiased",
+          "h-0 min-h-screen overflow-x-hidden bg-background font-space_grotesk text-foreground antialiased relative",
           montserrat.variable,
           space_grotesk.variable,
         )}
@@ -44,24 +44,16 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
+              <NavBar />
           <main>
-            <header className="flex w-screen justify-center">
-              <div className="w-full max-w-[1800px]">
-                <NavBar />
-              </div>
-            </header>
-            <main className="mt-[80px] flex min-h-[calc(100vh-176px)] justify-center md:mt-[100px] md:min-h-[calc(100vh-196px)]">
-              <div className="w-full max-w-[1000px] px-8 md:px-10">
-                {children}
-              </div>
-              <span className="fixed bottom-8 left-auto right-auto m-0 h-fit w-fit p-0 max-xl:hidden">
-                <DockInUse />
-              </span>
-            </main>
-            <footer>
-              <FooterContent />
-            </footer>
+            {children}
+            <span className="fixed bottom-8 left-auto right-auto m-0 h-fit w-fit p-0 max-xl:hidden">
+              <DockInUse />
+            </span>
           </main>
+          <footer>
+            <FooterContent />
+          </footer>
         </ThemeProvider>
         <Toaster />
       </body>

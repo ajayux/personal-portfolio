@@ -5,43 +5,23 @@ import { VelocityScroll } from "../ui/scroll-based-velocity";
 
 const ResumeSection = () => {
   return (
-    <>
-      {" "}
-      <section className="mb-10">
-        <div id="currently_cooking" className="pt-40">
-          <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
-            currently cooking 👨🏼‍🍳
-          </h2>
-        </div>
-        <VelocityScroll
-          text="YouTube content, bachelor thesis, builing awesome landing pages"
-          default_velocity={2}
-          className="font-display text-center text-4xl font-bold tracking-[-0.02em] text-black drop-shadow-sm dark:text-white md:text-7xl md:leading-[5rem]"
-        />
-        {/* <ul className="list-disc pl-5">
-          <li>Youtube content</li>
-          <li>Bachelor Thesis</li>
-          <li>building awesome LP`s</li>
-        </ul> */}
-        <hr className="my-10 dark:border-neutral-700" />
-      </section>
-      <section id="resume-area" className="mb-20">
-        {/* <h2 className="mb-10 text-3xl font-bold">Resume Area 📝</h2> */}
+      <section id="resume-area" className="py-20">
+        <div className="container">
+        <h2 className="mb-10 text-3xl font-bold">Resume Area 📝</h2>
         <ScrollAnimation>
           <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
             Skills
           </h2>
           <h3 className="font-bold">Programming Languages_</h3>
-          <p>Javascript/Typescript, C# and Java</p>
-          <h3 className="font-bold">more Technologies_ </h3>
+          <p>Javascript/Typescript</p>
+          <h3 className="font-bold">More Technologies_ </h3>
           <p>
-            HTML, CSS, SQL, MongoDB, PostGreSQL, VS Code, Git, Github, all major
+            HTML, CSS, VS Code, Git, Github, all major
             operating systems
           </p>
           <h3 className="font-bold">Frameworks and Librarys_</h3>
           <p>
-            React and Next.js, several auth frameworks, Zod, Tanstack Query,
-            Zustand, TailwindCSS, Sass, Drizzle
+            React, Next.js TailwindCSS and Sass
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -52,20 +32,20 @@ const ResumeSection = () => {
           <h3 className="font-bold">Work_</h3>
           <p className="mb-1">
             see{" "}
-            {/* <Link
+            <Link
               className="text-yellow-600 dark:text-brand "
               href={"/changelog"}
             >
               changelog
-            </Link> */}
-            <LinkPreview
-              url="https://tobiasmeyhoefer.de/changelog"
+            </Link>
+            {/* <LinkPreview
+              url="/changelog"
               className="text-yellow-600 dark:text-brand"
             >
               changelog
-            </LinkPreview>{" "}
+            </LinkPreview>{" "} */}
           </p>
-          {/* <p className="mb-1">
+          <p className="mb-1">
             since 2024: Peaks & Pies, working as a fullstack webdeveloper on
             enterprise landing page conversion optimization for multiple
             international companies with Next.js and Sanity
@@ -74,7 +54,7 @@ const ResumeSection = () => {
             2022 - 2024: Web developer at “Berliner Verkehrsbetriebe (BVG)”,
             active development of web applications to relieve various tasks of
             company employees
-          </p> */}
+          </p>
           <h3 className="font-bold">Strength_ </h3>
           <p className="mb-1">
             building fast and reliable fullstack applications with cutting edge
@@ -92,7 +72,7 @@ const ResumeSection = () => {
           </p>
         </ScrollAnimation>
         <hr className="my-10 dark:border-neutral-700" />
-        {/* <ScrollAnimation>
+        <ScrollAnimation>
           <h2 className="mb-4 text-2xl font-bold">Projects</h2>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
@@ -128,9 +108,9 @@ const ResumeSection = () => {
             waki, a flashcard learning app for spaced repetition also with
             Next.js and newest technologies and optimzations
           </p>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
         <ScrollAnimation>
-          {/* <hr className="my-10 dark:border-neutral-700" /> */}
+          <hr className="my-10 dark:border-neutral-700" />
           <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
             Else
           </h2>
@@ -138,7 +118,7 @@ const ResumeSection = () => {
           <p className="mb-1">
             German (native), English (fluent), Danish (basics), Turkish (basics)
           </p>
-          <h3 className="font-bold">since 2021_ </h3>
+          <h3 className="font-bold">Since 2021_ </h3>
           <p className="mb-1">
             Studying media-based computer science at Berliner Hochschule für
             Technik, German Grade System: 1.4, US Grade System: 3.6{" "}
@@ -149,8 +129,8 @@ const ResumeSection = () => {
             knowledge
           </p>
         </ScrollAnimation>
-      </section>{" "}
-    </>
+        </div>
+      </section>
   );
 };
 
