@@ -16,12 +16,12 @@ const ResumeSection = () => {
           <p>Javascript/Typescript</p>
           <h3 className="font-bold">More Technologies_ </h3>
           <p>
-            HTML, CSS, VS Code, Git, Github, all major
+            HTML, CSS, SCSS, VS Code, Git, all major
             operating systems
           </p>
           <h3 className="font-bold">Frameworks and Librarys_</h3>
           <p>
-            React, Next.js TailwindCSS and Sass
+            React, Next.js TailwindCSS, Magic ui and Payload
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -31,44 +31,42 @@ const ResumeSection = () => {
           </h2>
           <h3 className="font-bold">Work_</h3>
           <p className="mb-1">
-            see{" "}
+            since 2022: <Link
+              className="text-yellow-600 dark:text-brand "
+              href={"https://www.intersmartsolution.com/"}
+            >
+              Intersmart
+            </Link>, working as web developer on multiple
+            international companies with HTML, CSS, Javascript, Laravel and Next.js 
+          </p>
+          <p className="mb-1">
+            2020 - 2022: Web developer at “Oges infotech”,
+            active development of web based project
+          </p>
+          <p className="mb-1">
+            2019 - 2022: started profesional career on web at &quot;EyeT Innovations&quot;
+          </p>
+          <h3 className="font-bold">Strength_ </h3>
+          <p className="mb-1">
+            building fast and reliable fullstack dynamic or static website with cutting edge
+            technology that scales easily up
+          </p>
+          <h3 className="font-bold">Design_ </h3>
+          <p className="mb-1">
+          A new way to build better relationships with clients with modern UI designs aspects
+          </p>
+          <h3 className="font-bold">Else_ </h3>
+          <p className="mb-1">
+            Optimzations, usability and relability
+          </p>
+          <p className="mb-1">
+            ...see{" "}
             <Link
               className="text-yellow-600 dark:text-brand "
               href={"/changelog"}
             >
               changelog
             </Link>
-            {/* <LinkPreview
-              url="/changelog"
-              className="text-yellow-600 dark:text-brand"
-            >
-              changelog
-            </LinkPreview>{" "} */}
-          </p>
-          <p className="mb-1">
-            since 2024: Peaks & Pies, working as a fullstack webdeveloper on
-            enterprise landing page conversion optimization for multiple
-            international companies with Next.js and Sanity
-          </p>
-          <p className="mb-1">
-            2022 - 2024: Web developer at “Berliner Verkehrsbetriebe (BVG)”,
-            active development of web applications to relieve various tasks of
-            company employees
-          </p>
-          <h3 className="font-bold">Strength_ </h3>
-          <p className="mb-1">
-            building fast and reliable fullstack applications with cutting edge
-            technology that scales easily up
-          </p>
-          <h3 className="font-bold">Design_ </h3>
-          <p className="mb-1">
-            Design Laws, gestalt principles, modern UI design
-          </p>
-          <h3 className="font-bold">Else_ </h3>
-          <p className="mb-1">
-            Shell scripting (bash, zsh, powershell), algorithms und data
-            structures, ISO-OSI layer-model Protocolls, UML Diagrams, GraphQL,
-            AWS, Scrum
           </p>
         </ScrollAnimation>
         <hr className="my-10 dark:border-neutral-700" />
@@ -76,37 +74,33 @@ const ResumeSection = () => {
           <h2 className="mb-4 text-2xl font-bold">Projects</h2>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
-              Created
+              Constructed and Developed
             </span>{" "}
-            my own youtube channel called tobi tackles tech
+            a complete CMS website in to connect buyer to the dealer, {" "}
+            <Link
+              className="text-yellow-600 dark:text-brand "
+              href={"https://www.bydoman.com/"}
+            >
+              BYD Oman
+            </Link>.
           </p>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
-              Implemented
+              Created
             </span>{" "}
-            10+ study projects from small ones like simple crud applications to
-            a whole buy and sell application with authentication, integrated
-            payment- and realtime messaging system
+            my own personal Portfolio using next js.
           </p>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
               Engineered
             </span>{" "}
-            my own website last year
-          </p>
-          <p className="mb-1">
-            <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
-              Constructed and Developed
-            </span>{" "}
-            a journaling application called Yournal for personal use with
-            technologies like Next.js, Clerk or Drizzle
+            the latest and simplest way of digital footprints.
           </p>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
               Coded
             </span>{" "}
-            waki, a flashcard learning app for spaced repetition also with
-            Next.js and newest technologies and optimzations
+            multiple project with long visions user Experience.
           </p>
         </ScrollAnimation>
         <ScrollAnimation>
@@ -116,17 +110,15 @@ const ResumeSection = () => {
           </h2>
           <h3 className="font-bold">Languages_</h3>
           <p className="mb-1">
-            German (native), English (fluent), Danish (basics), Turkish (basics)
+            English (basics), Malayalam (native), Tamil (basics).
           </p>
-          <h3 className="font-bold">Since 2021_ </h3>
+          <h3 className="font-bold">Since 2018_ </h3>
           <p className="mb-1">
-            Studying media-based computer science at Berliner Hochschule für
-            Technik, German Grade System: 1.4, US Grade System: 3.6{" "}
+            Studying web-based technologies.
           </p>
-          <h3 className="font-bold">2023_</h3>
+          <h3 className="font-bold">Life vision_</h3>
           <p className="mb-1">
-            Semester abroad in Aarhus/Denmark to improve social-cultural
-            knowledge
+            Build a beautiful homestay for rest life.
           </p>
         </ScrollAnimation>
         </div>

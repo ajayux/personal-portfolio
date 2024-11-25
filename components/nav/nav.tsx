@@ -33,7 +33,7 @@ export default function NavBar() {
           <div className="flex gap-0 md:gap-2">
             <Link
               className={cn(
-                "flex w-20 items-center justify-center p-1 transition-all hover:font-bold md:w-24",
+                "flex w-20 items-center justify-center p-1 transition-all md:w-24 hover:text-orange-400",
                 path === "/changelog" ? "font-bold" : "font-normal",
               )}
               href={"/changelog"}

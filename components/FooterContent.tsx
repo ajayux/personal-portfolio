@@ -8,14 +8,14 @@ const FooterContent = () => {
       <Link
         className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
         target="_blank"
-        href={"https://github.com/"}
+        href={"https://github.com/ajaynellengara"}
       >
         Github
       </Link>
       <Link
         className="text-neutral-600 hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
         target="_blank"
-        href={"https://www.linkedin.com/"}
+        href={"https://www.linkedin.com/in/ajay-babu-9083831b3"}
       >
         Linkedin
       </Link>

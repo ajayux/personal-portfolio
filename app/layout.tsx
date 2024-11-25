@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavBar from "@/components/nav/nav";
-import { DockInUse } from "@/components/magicui/dock-in-use";
 import FooterContent from "@/components/FooterContent";
 
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--montserrat" });
@@ -47,9 +46,6 @@ export default function RootLayout({
               <NavBar />
           <main>
             {children}
-            <span className="fixed bottom-8 left-auto right-auto m-0 h-fit w-fit p-0 max-xl:hidden">
-              <DockInUse />
-            </span>
           </main>
           <footer>
             <FooterContent />

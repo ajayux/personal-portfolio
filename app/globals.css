@@ -98,6 +98,11 @@ html {
   }
 }
 
+h3{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
 /* FOR THE SHINY BUTTON */
 
 .radial-gradient {

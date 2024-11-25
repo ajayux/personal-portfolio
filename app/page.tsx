@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="w-full block">
           <VelocityScroll
-            text="YouTube content, bachelor thesis, builing awesome landing pages"
+            text="builing awesome web pages, finding new technologies,"
             default_velocity={2}
             className="font-display text-center text-4xl font-bold tracking-[-0.02em] text-black drop-shadow-sm dark:text-slate-200 md:text-6xl md:leading-[5rem]"
           />

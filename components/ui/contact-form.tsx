@@ -52,6 +52,7 @@ const ContactForm = () => {
       values.reason,
       values.contact ?? "",
     );
+    alert("sented succesfully");
 
     form.reset();
     setIsLoading(false);
@@ -143,7 +144,7 @@ const ContactForm = () => {
                   <Input
                     className="focus-within:ring-red-100 focus-visible:ring-zinc-500 md:h-12"
                     placeholder=""
-                    autoComplete="off"
+                    autoComplete="on"
                     {...field}
                   />
                 </FormControl>
